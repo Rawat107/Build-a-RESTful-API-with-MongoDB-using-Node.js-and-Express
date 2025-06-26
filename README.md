@@ -79,25 +79,9 @@ http://localhost:3000
 
 **Request:** `POST /user`
 
-```json
-{
-  "firstName": "Vaibhav",
-  "lastName": "Rawat",
-  "age": 23,
-  "email": "vaibhav@example.com",
-  "hobbies": ["Reading", "Gaming"]
-}
-```
-
 ![POST Success](screenshots/POST.png)
 
 #### Error: Missing Required Field
-
-```json
-{
-  "firstName": "Vaibhav"
-}
-```
 
 ![POST Missing Field](screenshots/PostError.png)
 
@@ -112,12 +96,6 @@ http://localhost:3000
 #### Success
 
 **Request:** `PUT /user/:id`
-
-```json
-{
-  "lastName": "Sharma"
-}
-```
 
 ![PUT Success](screenshots/PUT.png)
 
@@ -135,21 +113,9 @@ http://localhost:3000
 
 #### Error: Validation (e.g., wrong data type)
 
-```json
-{
-  "age": "twenty"
-}
-```
-
 ![PUT Validation Error](screenshots/PutError3.png)
 
 #### Error: Unknown Field
-
-```json
-{
-  "food": "Pizza"
-}
-```
 
 ![PUT Unknown Field](screenshots/PutError4.png)
 
