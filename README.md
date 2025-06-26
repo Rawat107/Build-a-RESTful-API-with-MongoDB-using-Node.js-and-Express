@@ -30,7 +30,7 @@ This project is a simple RESTful API for managing users, built using **Node.js**
 
 ---
 
-## 🔗 Base URL
+##  Base URL
 
 ```
 http://localhost:3000
@@ -38,7 +38,7 @@ http://localhost:3000
 
 ---
 
-## 📘 API Endpoints & Test Results
+##  API Endpoints & Test Results
 
 ### 1. GET: Fetch All Users
 
